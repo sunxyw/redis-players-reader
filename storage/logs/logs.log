@@ -1,0 +1,38 @@
+2022-07-08 16:22:01	[35mDEBUG[0m	redis-players-reader/main.go:16	Sad
+2022-07-08 16:27:22	[35mDEBUG[0m	redis-players-reader/main.go:28	1657297762
+2022-07-08 16:27:26	[35mDEBUG[0m	redis-players-reader/main.go:28	1657297765
+2022-07-08 16:30:27	[33mWARN[0m	redis-players-reader/main.go:28	Dump	{"data": "{}"}
+2022-07-08 16:31:52	[31mERROR[0m	redis/redis.go:174	Redis	{"HGetAll": "WRONGTYPE Operation against a key holding the wrong kind of value"}
+rpr/pkg/redis.RedisClient.HGetAll
+	/workspaces/redis-players-reader/pkg/redis/redis.go:174
+main.main
+	/workspaces/redis-players-reader/main.go:28
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2022-07-08 16:31:52	[33mWARN[0m	redis-players-reader/main.go:28	Dump	{"data": "null"}
+2022-07-08 16:33:41	[33mWARN[0m	redis-players-reader/main.go:28	Dump	{"data": "[\"39f2caf5-c998-3380-832b-5b29aecfca61\",\"28e500fa-eccd-3e71-9920-e19e3011aed7\",\"83491f0f-13b6-3c0d-9397-eda94576ceef\",\"4aab9247-67ec-3624-a9cf-7603b4feb555\",\"2ed31876-1b41-35d9-9752-768295480f75\"]"}
+2022-07-08 16:51:51	[33mWARN[0m	redis-players-reader/main.go:29	Dump	{"data": "{\"bc_1\":\"1657297979\",\"bc_2\":\"1657297981\",\"bc_3\":\"1657297982\"}"}
+2022-07-08 16:57:27	[33mWARN[0m	redis-players-reader/main.go:33	Dump	{"data": "[{\"id\":\"bc_3\"},{\"id\":\"bc_2\"},{\"id\":\"bc_1\"}]"}
+2022-07-08 17:01:22	[33mWARN[0m	redis-players-reader/main.go:36	Dump	{"data": "[\"f6b164c7-26dd-39d8-9765-c61cf14ebf6e\",\"5ba3e9ff-c2e7-359f-a259-7c342a1e01b9\",\"9a65e137-af9f-3aea-9bfb-9d733269e8a3\"]"}
+2022-07-08 17:01:23	[33mWARN[0m	redis-players-reader/main.go:36	Dump	{"data": "[]"}
+2022-07-08 17:01:24	[33mWARN[0m	redis-players-reader/main.go:36	Dump	{"data": "[\"39f2caf5-c998-3380-832b-5b29aecfca61\",\"28e500fa-eccd-3e71-9920-e19e3011aed7\",\"83491f0f-13b6-3c0d-9397-eda94576ceef\",\"4aab9247-67ec-3624-a9cf-7603b4feb555\",\"2ed31876-1b41-35d9-9752-768295480f75\"]"}
+2022-07-08 17:03:36	[33mWARN[0m	redis-players-reader/main.go:37	Dump	{"data": "[\"{\\\"name\\\":\\\"BML_ZiXiao\\\",\\\"uuid\\\":\\\"39f2caf5-c998-3380-832b-5b29aecfca61\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":20,\\\"minute\\\":46,\\\"second\\\":19}}\",\"{\\\"name\\\":\\\"BMLph114514\\\",\\\"uuid\\\":\\\"28e500fa-eccd-3e71-9920-e19e3011aed7\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":4,\\\"second\\\":18}}\",\"{\\\"name\\\":\\\"BIGFORGSINAIMI\\\",\\\"uuid\\\":\\\"83491f0f-13b6-3c0d-9397-eda94576ceef\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":23,\\\"minute\\\":30,\\\"second\\\":36}}\",\"{\\\"name\\\":\\\"oxghbyx\\\",\\\"uuid\\\":\\\"4aab9247-67ec-3624-a9cf-7603b4feb555\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":31,\\\"second\\\":50}}\",\"{\\\"name\\\":\\\"Ame_otto\\\",\\\"uuid\\\":\\\"2ed31876-1b41-35d9-9752-768295480f75\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":16,\\\"second\\\":3}}\"]"}
+2022-07-08 17:03:36	[33mWARN[0m	redis-players-reader/main.go:37	Dump	{"data": "[\"{\\\"name\\\":\\\"yale\\\",\\\"uuid\\\":\\\"f6b164c7-26dd-39d8-9765-c61cf14ebf6e\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":17,\\\"minute\\\":14,\\\"second\\\":6}}\",\"{\\\"name\\\":\\\"Moondog\\\",\\\"uuid\\\":\\\"5ba3e9ff-c2e7-359f-a259-7c342a1e01b9\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":21,\\\"minute\\\":52,\\\"second\\\":29}}\",\"{\\\"name\\\":\\\"ElainaCelesteria\\\",\\\"uuid\\\":\\\"9a65e137-af9f-3aea-9bfb-9d733269e8a3\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":20,\\\"minute\\\":7,\\\"second\\\":32}}\"]"}
+2022-07-08 17:03:36	[31mERROR[0m	redis/redis.go:192	Redis	{"HMGets": "ERR wrong number of arguments for 'hmget' command"}
+rpr/pkg/redis.RedisClient.HMGets
+	/workspaces/redis-players-reader/pkg/redis/redis.go:192
+main.main
+	/workspaces/redis-players-reader/main.go:36
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2022-07-08 17:03:36	[33mWARN[0m	redis-players-reader/main.go:37	Dump	{"data": "null"}
+2022-07-08 17:04:59	[33mWARN[0m	redis-players-reader/main.go:41	Dump	{"data": "[\"{\\\"name\\\":\\\"yale\\\",\\\"uuid\\\":\\\"f6b164c7-26dd-39d8-9765-c61cf14ebf6e\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":17,\\\"minute\\\":14,\\\"second\\\":6}}\",\"{\\\"name\\\":\\\"Moondog\\\",\\\"uuid\\\":\\\"5ba3e9ff-c2e7-359f-a259-7c342a1e01b9\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":21,\\\"minute\\\":52,\\\"second\\\":29}}\",\"{\\\"name\\\":\\\"ElainaCelesteria\\\",\\\"uuid\\\":\\\"9a65e137-af9f-3aea-9bfb-9d733269e8a3\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":20,\\\"minute\\\":7,\\\"second\\\":32}}\"]"}
+2022-07-08 17:05:00	[33mWARN[0m	redis-players-reader/main.go:41	Dump	{"data": "[\"{\\\"name\\\":\\\"BML_ZiXiao\\\",\\\"uuid\\\":\\\"39f2caf5-c998-3380-832b-5b29aecfca61\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":20,\\\"minute\\\":46,\\\"second\\\":19}}\",\"{\\\"name\\\":\\\"BMLph114514\\\",\\\"uuid\\\":\\\"28e500fa-eccd-3e71-9920-e19e3011aed7\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":4,\\\"second\\\":18}}\",\"{\\\"name\\\":\\\"BIGFORGSINAIMI\\\",\\\"uuid\\\":\\\"83491f0f-13b6-3c0d-9397-eda94576ceef\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":11,\\\"hourOfDay\\\":23,\\\"minute\\\":30,\\\"second\\\":36}}\",\"{\\\"name\\\":\\\"oxghbyx\\\",\\\"uuid\\\":\\\"4aab9247-67ec-3624-a9cf-7603b4feb555\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":31,\\\"second\\\":50}}\",\"{\\\"name\\\":\\\"Ame_otto\\\",\\\"uuid\\\":\\\"2ed31876-1b41-35d9-9752-768295480f75\\\",\\\"expiry\\\":{\\\"year\\\":2022,\\\"month\\\":6,\\\"dayOfMonth\\\":12,\\\"hourOfDay\\\":0,\\\"minute\\\":16,\\\"second\\\":3}}\"]"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_3": "yale"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_3": "Moondog"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_3": "ElainaCelesteria"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_1": "BML_ZiXiao"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_1": "BMLph114514"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_1": "BIGFORGSINAIMI"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_1": "oxghbyx"}
+2022-07-08 17:08:11	[34mINFO[0m	redis-players-reader/main.go:45	Proxy	{"bc_1": "Ame_otto"}
