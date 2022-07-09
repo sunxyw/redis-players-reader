@@ -1,4 +1,4 @@
-module rpr
+module github.com/sunxyw/rpr
 
 go 1.18
 
